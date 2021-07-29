@@ -1,3 +1,3 @@
-# git push 연습
+# algorithm
 
- 이것은 README PUSH 연습입니다.
+알고리즘 실력을 키우는 공간입니다.
