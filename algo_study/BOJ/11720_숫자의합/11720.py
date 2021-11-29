@@ -1,0 +1,32 @@
+import sys
+sys.stdin = open('input.txt')
+
+T = int(input())
+# print(T)
+
+# qustion = list(input())
+# qustion = int(input())
+qustion = list(map(int, input()))
+total = 0
+for i in range(T):
+
+    total += qustion[i]
+
+print(total)
+# print(sum(qustion))
+
+# for i in range(T)
+
+
+# for i in range(T):
+
+#     total = 0
+#     score = 0
+#     for j in qustion:
+#         if j == 'O':
+#             score += 1
+#             # total 부분 기억하기
+#             total += score
+#         else:
+#             score = 0
+#     print(total)
